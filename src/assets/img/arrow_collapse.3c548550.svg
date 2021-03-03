@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 61.2 (101010) - https://sketch.com -->
+    <title>DB908DF0-2536-4EE3-A56E-78106EA5E7A0@1.00x</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <circle id="path-1" cx="12" cy="12" r="12"></circle>
+        <filter x="-25.0%" y="-25.0%" width="150.0%" height="150.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M8.73776722,8.06563128 C8.33030964,7.68951659 8.33289862,7.07732435 8.73242331,6.70853233 L8.76757669,6.67608305 C9.17208292,6.30269269 9.83127218,6.30578971 10.2329975,6.67661306 L15.2670025,11.3233869 C15.6718258,11.69707 15.6687278,12.3057897 15.2670025,12.6766131 L10.2329975,17.3233869 C9.82817415,17.69707 9.16710138,17.692709 8.76757669,17.3239169 L8.73242331,17.2914677 C8.32791708,16.9180773 8.32806396,16.3125563 8.73776722,15.9343687 L13,12 L8.73776722,8.06563128 Z" id="path-4"></path>
+    </defs>
+    <g id="Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="arrow_collapse">
+            <g id="Icon" transform="translate(16.000000, 16.000000) scale(1, -1) translate(-16.000000, -16.000000) translate(4.000000, 4.000000)">
+                <g id="Icon-/-Expander" transform="translate(12.000000, 12.000000) scale(1, -1) translate(-12.000000, -12.000000) ">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Mask">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="Icons-/-Trailing-Icons-/-Chevron-/-Down" mask="url(#mask-2)">
+                        <g transform="translate(12.000000, 12.000000) scale(1, -1) translate(-12.000000, -12.000000) ">
+                            <mask id="mask-5" fill="white">
+                                <use xlink:href="#path-4"></use>
+                            </mask>
+                            <use id="🎨-Icon-color" stroke="none" fill="#9BA4AB" fill-rule="nonzero" transform="translate(12.000000, 12.000000) rotate(90.000000) translate(-12.000000, -12.000000) " xlink:href="#path-4"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

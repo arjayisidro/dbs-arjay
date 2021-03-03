@@ -1,0 +1,34 @@
+.borderless-root-orange {
+  border-left: 0.3rem solid #fa2;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 12px;
+  color: #9ba4ab;
+  padding-top: 8px;
+  width: 100%;
+  position: relative;
+}
+
+.borderless-root-violet {
+  border-left: 0.3rem solid #8657ff;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 12px;
+  color: #9ba4ab;
+  padding-top: 8px;
+  width: 100%;
+  position: relative;
+}
+
+.label {
+  padding-left: 8px;
+}
+
+.label-bold {
+  font-size: 11px;
+  line-height: 12px;
+  color: #172633;
+  padding-left: 8px;
+  font-weight: bold;
+  padding-top: 4px;
+}
