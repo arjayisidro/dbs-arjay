@@ -20,21 +20,23 @@ const Homepage = ({ homepageContents }) => {
                 <div className="act-as-bootstrap-md-8">
                   <div className="content-title">{content.title}</div>
                   <div className="content-paragraph">{content.paragraph}</div>
-                  <div className="row">
-                    <div className="card-container">
+                  <div className="row" key="card-row">
+                    <div key={content.id} className="card-container">
                       {content.hasBorderLess
-                        ? content.cards.map((card) => (
+                        ? content.cards.map((card, cardIndex) => (
                             <div className="card-root">
                               <div className="card-title">Payout</div>
                               <div className="row">
                                 <div className="act-as-bootstrap-md-6">
                                   <BorderlessCard
+                                    key={`orange-${cardIndex}`}
                                     card={card.orange}
                                     cardType="orange"
                                   />
                                 </div>
                                 <div className="act-as-bootstrap-md-6">
                                   <BorderlessCard
+                                    key={`violet-${cardIndex}`}
                                     card={card.violet}
                                     cardType="violet"
                                   />
@@ -42,11 +44,19 @@ const Homepage = ({ homepageContents }) => {
                               </div>
                             </div>
                           ))
-                        : content.cards.map((card) => {
+                        : content.cards.map((card, cardIndex2) => {
                             return (
                               <>
-                                <Card card={card.orange} cardType="orange" />
-                                <Card card={card.violet} cardType="violet" />
+                                <Card
+                                  card={card.orange}
+                                  cardType="orange"
+                                  key={`orange-${cardIndex2}`}
+                                />
+                                <Card
+                                  card={card.violet}
+                                  cardType="violet"
+                                  key={`violet-${cardIndex2}`}
+                                />
                               </>
                             );
                           })}
