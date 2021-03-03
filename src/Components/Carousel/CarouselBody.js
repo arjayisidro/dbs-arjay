@@ -8,7 +8,7 @@ const CarouselBody = ({ content, index, carouselContents }) => {
 
   return (
     <>
-      <div className="content-indside fade">
+      <div key={`card-container-${index}`} className="content-indside fade">
         <div className="row">
           <div className="carousel padding-top-24">
             <div className="row">
@@ -40,7 +40,7 @@ const CarouselBody = ({ content, index, carouselContents }) => {
           </div>
         </div>
         <div className="row">
-          <div className="card-container">
+          <div className="card-container" key="carousel-body">
             {content.hasBorderLess
               ? content.cards.map((card) => (
                   <div className="card-root">
